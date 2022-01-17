@@ -1,9 +1,5 @@
 ﻿using Raven.Client.Documents;
-using Raven.Client.Documents.Operations;
 using Raven.Client.Documents.Session;
-using Raven.Client.Exceptions.Database;
-using Raven.Client.ServerWide;
-using Raven.Client.ServerWide.Operations;
 using RavenDB.Client.Contracts;
 
 namespace RavenDB.Client.Logic

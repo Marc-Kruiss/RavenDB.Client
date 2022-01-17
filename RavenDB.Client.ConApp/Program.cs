@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Raven.Client;
-using Raven.Client.Documents;
-using Raven.Client.Documents.Session;
+﻿using Raven.Client.Documents;
 using RavenDB.Client.Logic;
 
 namespace RavenDB.Client.ConApp // Note: actual namespace depends on the project name.
