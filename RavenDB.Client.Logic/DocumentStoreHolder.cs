@@ -15,6 +15,7 @@ namespace RavenDB.Client.Logic
     public static class DocumentStoreHolder
     {
         private static readonly string DbName = "Pets";
+        private static readonly string Url= "http://localhost:8080";
         // Use Lazy<IDocumentStore> to initialize the document store lazily. 
         // This ensures that it is created only once - when first accessing the public `Store` property.
         private static Lazy<IDocumentStore> store = new Lazy<IDocumentStore>(CreateStore);
@@ -26,7 +27,7 @@ namespace RavenDB.Client.Logic
             IDocumentStore store = new DocumentStore()
             {
                 // Define the cluster node URLs (required)
-                Urls = new[] { "http://localhost:8080", 
+                Urls = new[] { Url, 
                            /*some additional nodes of this cluster*/ },
 
 
