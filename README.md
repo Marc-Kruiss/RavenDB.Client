@@ -1,15 +1,15 @@
 # RavenDB.Client
-Use .net Client for the dockerized RavenDB Database
+Use .net Client for the dockerized RavenDB Database and monitoring with RavenDb.Studio
 
 ## Startup
 ### Docker
 $ docker run -p 8080:8080 ravendb/ravendb:ubuntu-latest
 https://hub.docker.com/r/ravendb/ravendb/
 
-### .net 6
+### .Net 6
 Install-Package RavenDB.Client -Version 5.3.2
 
-### Monitoring
+### Monitoring with RavenDb.Studio (Dashboard)
 1. Run Docker Container
 2. Open in browser (localhost:8080)
 3. Agree End-User License Agreement
